@@ -1,6 +1,25 @@
-body {
-    background-color:rgb(253, 251, 251)) ;
-}
+ 
  .img {
     width: 300px;
+ }
+ body { 
+    background-color:rgb(253, 251, 251);
+ }
+ #cabecalho {
+
+    color: pink;
+    position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   height: 35px;
+
+ }
+#licoes_aprendidas{
+    background-color: aquamarine;
+    color: rgb(1, 20, 16);
+;
+}
+ #licoes_a_aprender {
+color: rgb(1, 20, 16;
  }
