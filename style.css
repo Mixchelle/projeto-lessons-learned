@@ -13,12 +13,24 @@
    left: 0;
    right: 0;
    height: 35px;
+   font-size: 20px;
 
  }
 #licoes_aprendidas{
     color: rgb(1, 20, 16);
-;
+    float: left;
+    margin: auto;
+    padding: 50px;
+border: 100px;git add
+;;
 }
  #licoes_a_aprender {
 color: rgb(1, 20, 16;
+float: right;
+margin: auto;
+padding: 100px;
+border: 100px;
+
  }
+ 
+ 
