@@ -27,13 +27,17 @@ body{
   margin-top: -600px;
   margin-;
   }
+  .lado-esquerdo{
+    top: 500px;
+    width: 93%;
+    margin-left: 15px;
+    background-color: rgb(233, 187, 223);
+    width: 500px;
+    text-align:justify;
+    margin-top: 200px;
+  }
   
-  .lado-esquerdo {
-    text-align: justify;
-    font-family: Amiri, Arial, Helvetica, sans-serif;
-    font-weight: 550;
-    text-indent: 50px;
-    display: inline-block;
+  
   }
   
  .nome{
@@ -79,12 +83,7 @@ top: 500px;
     text-align: center;
 }
 #article {
-    top: 500px;
-    width: 93%;
-    margin-left: 15px;
-    background-color: rgb(233, 187, 223);
-    width: 500px;
-    text-align:justify;
+    
     
 }
 #aside{
@@ -104,3 +103,4 @@ top: 500px;
     border: 100px;
 
 }
+
