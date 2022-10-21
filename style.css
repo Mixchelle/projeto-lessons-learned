@@ -1,22 +1,20 @@
 body{
     background-color:rgb(253, 251, 251);
     font-size: 17px;
-  color: rgb(66, 66, 66);
-  line-height: 25px;
-  font-family: sans-serif;
+    color: rgb(66, 66, 66);
+    line-height: 25px;
+    font-family: sans-serif;
  }
  
- 
-
  .img {
     width: 300px;
     border-radius: 100% 100% ;
-   margin-top: 00PX;
-   text-align: center;
-   display: block;
-   margin: auto;
-   
+    margin-top: 00PX;
+    text-align: center;
+    display: block;
+    margin: auto;
   }
+
   .lado-direito {
   text-align: justify;
   font-family: Amiri, Arial, Helvetica, sans-serif;
@@ -48,6 +46,8 @@ body{
     text-align: center;
     background-color: rgb(236, 138, 215);
     font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:aliceblue;
  }
  #rodape {
     text-align: center;
@@ -76,6 +76,7 @@ top: 500px;
 }
 #Quem{
     text-align: center;
+    display: flex;
 }
 
 #aside{
