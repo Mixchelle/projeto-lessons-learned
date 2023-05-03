@@ -1,56 +1,111 @@
+body{
+    background-color: rgb(253, 251, 251);
+    font-size: 17px;
+  color: rgb(66, 66, 66);
+  line-height: 25px;
+  font-family: sans-serif;
+  text-align: center;
+ }
  
  .img {
     width: 300px;
  }
-
-body{
-   background-color:rgb(253, 251, 251);
-}
+ body { 
+    background-color:rgb(253, 251, 251);
+ }
  #cabecalho {
-
-    color: pink;
     position: fixed;
    top: 0;
    left: 0;
    right: 0;
    height: 35px;
    font-size: 20px;
-   line-height: normal;
-   font-family: Georgia, 'Times New Roman', Times, serif;
-
- }
-#licoes_aprendidas{
-   color: rgb(1, 20, 16);
-   float: left;
-   font-family: 'Courier New', Courier, monospace;
-   margin-right: 50%;
-   padding: 50px;
-   border: 100px;
-
-    }
-#licoes_a_aprender {
-color: rgb(1, 20, 16);
-float: right;
-font-family: 'Courier New', Courier, monospace;
-margin-right: 50%;
-padding: 50px;
-border: 100px;
 
  }
 
- .lado-esquerdo {
-   color: rgb(1, 20, 16);
-   float: left;
-   font-family: 'Courier New', Courier, monospace;
-   margin-left: 50%;
-   padding: 50px;
-   border: 100px;
-   position: fixed;
-
+ .jaaprendi, .vaiaprender {
+    display: inline-block;
+    text-align: center;
+    width: 80%; 
 }
- 
- 
-.nome { 
-   color: palevioletred;
-   font-family: Georgia, 'Times New Roman', Times, serif;
-}  
+
+#licoes_aprendidas, #licoes_a_aprender {
+    margin: 0 1%; 
+}
+
+.containerli {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .containerli > div {
+    margin: 0 20px; /* adicione margem para separar o conteúdo */
+  }
+  
+  .jaaprendi, .vaiaprender {
+    text-align: center;
+  }
+
+  a {
+    color: red;
+    text-decoration: none;
+  }
+
+  #trybe_foto {
+    width: 100px;
+  }
+
+  .box {
+    width: 50px;
+    height: 50px;
+    background-color: lightblue;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 50px;
+    text-align: center;
+    align-items: center;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Style the footer */
+#rodape {
+    width: 100%;
+    height: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  #trybe_foto {
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  table{
+    border: 1px black solid;
+    padding: 20px;
+    align-items: center;
+   text-align: center ;
+   right: auto;
+   left: auto;
+   width: 500px;
+   margin-left: auto;
+   margin-right: auto;
+  }
+
+  .lado-esquerdo {
+    float: left;
+    width: 500px;
+  }
+  
+  .lado-direito {
+    float: right;
+    width: 500px;
+  }
