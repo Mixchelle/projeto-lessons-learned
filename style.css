@@ -4,14 +4,43 @@ body{
   color: rgb(66, 66, 66);
   line-height: 25px;
   font-family: sans-serif;
-  text-align: center;
  }
  
  .img {
     width: 300px;
- }
- body { 
-    background-color:rgb(253, 251, 251);
+    border-radius: 100% 100% ;
+   margin-top: 00PX;
+   text-align: center;
+   display: block;
+   margin: auto;
+   
+  }
+  .lado-direito {
+  text-align: justify;
+  font-family: Amiri, Arial, Helvetica, sans-serif;
+  font-weight: 550;
+  text-indent: 55px;
+  width: 30%;
+  display: inline-block;
+  margin-top: -600px;
+  margin-;
+  }
+  .lado-esquerdo{
+    top: 500px;
+    width: 93%;
+    margin-left: 15px;
+    background-color: rgb(233, 187, 223);
+    width: 500px;
+    text-align:justify;
+    margin-top: 200px;
+  }
+  
+  
+  }
+  
+ .nome{
+    text-align: center;
+    font-size: 60px;
  }
  #cabecalho {
     position: fixed;
@@ -26,24 +55,10 @@ body{
  .jaaprendi, .vaiaprender {
     display: inline-block;
     text-align: center;
-    width: 80%; 
-}
-
-#licoes_aprendidas, #licoes_a_aprender {
-    margin: 0 1%; 
-}
-
-.containerli {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .containerli > div {
-    margin: 0 20px; /* adicione margem para separar o conteúdo */
-  }
-  
-  .jaaprendi, .vaiaprender {
+    background-color: rgb(236, 138, 215);
+    font-size: 30px;
+ }
+ #rodape {
     text-align: center;
   }
 
@@ -86,21 +101,21 @@ body{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-  }
-  
-  table{
-    border: 1px black solid;
-    padding: 20px;
-    align-items: center;
-   text-align: center ;
-   right: auto;
-   left: auto;
-   width: 500px;
-   margin-left: auto;
-   margin-right: auto;
-  }
+}
+#article {
+    
+    
+}
+#aside{
+    display: inline-block;
+    margin-bottom: 30px;
+    background-color:  rgb(233, 187, 223);
+    width: 500px;
+    text-align:justify;
+}
 
-  .lado-esquerdo {
+#licoes_aprendidas {
+    color: rgb(1, 20, 16;
     float: left;
     width: 500px;
   }
